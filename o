@@ -1,1 +1,2 @@
-tmux new-window vim $(fzf)
+name=$(fzf)
+tmux new-window -n $name vim $name
